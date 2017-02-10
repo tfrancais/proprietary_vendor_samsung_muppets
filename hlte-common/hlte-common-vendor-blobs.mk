@@ -173,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
     vendor/samsung/hlte-common/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/hlte-common/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
+    vendor/samsung/hlte-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/hlte-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/hlte-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     vendor/samsung/hlte-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
@@ -193,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/hlte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/hlte-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/samsung/hlte-common/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/samsung/hlte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/hlte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/hlte-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -242,6 +244,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/hlte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/hlte-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
+    vendor/samsung/hlte-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/hlte-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/hlte-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/hlte-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
